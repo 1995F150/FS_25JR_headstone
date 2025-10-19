@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<modDesc descVersion="90">
+    <author>Jessie Crider (CriderGPT)</author>
+    <version>1.0.0.0</version>
+
+    <title>J.R. Hoback Jr. Memorial Headstone</title>
+    <description>
+        A handcrafted 3D model of the J.R. Hoback Jr. memorial headstone. 
+        Designed and modeled in honor of family heritage and local history. 
+        This decorative monument can be placed anywhere on your farm under the Decorations tab.
+    </description>
+
+    <iconFilename>storeIcon.dds</iconFilename>
+    <multiplayer supported="true"/>
+
+    <storeItems>
+        <storeItem xmlFilename="storeItem.xml"/>
+    </storeItems>
+
+    <brands>
+        <brand name="CriderGPT"/>
+    </brands>
+
+    <l10n filenamePrefix="l10n"/>
+</modDesc>
