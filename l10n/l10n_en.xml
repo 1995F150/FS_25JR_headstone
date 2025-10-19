@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<l10n>
+  <texts>
+    <text name="hoback_name">J.R. Hoback Jr. Memorial Headstone</text>
+    <text name="hoback_desc">
+      A handcrafted memorial stone honoring J.R. Hoback Jr. and the Crider family heritage. 
+      Placeable under Build Mode → Decorations → Other. Price: $300.
+    </text>
+  </texts>
+</l10n>
