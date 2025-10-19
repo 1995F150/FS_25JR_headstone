@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<placeable type="placeable">
+  <!-- Basic object setup -->
+  <base>
+    <type>static</type>
+    <filename>JRheadstone.i3d</filename>
+    <clearAreasOnSale>false</clearAreasOnSale>
+    <boughtWithFarmland>true</boughtWithFarmland>
+  </base>
+
+  <!-- Store information -->
+  <storeData>
+    <name>$l10n_hoback_name</name>
+    <description>$l10n_hoback_desc</description>
+    <image>storeIcon.dds</image>
+    <brand>CriderGPT</brand>
+    <price>300</price> <!-- Updated to $300 -->
+    <dailyUpkeep>0</dailyUpkeep>
+
+    <!-- Assigns it to Build > Decorations > Other -->
+    <brush>
+      <type>placeable</type>
+      <category>decoration</category>
+      <tab>other</tab>
+    </brush>
+  </storeData>
+
+  <!-- Placement behavior -->
+  <placement>
+    <useWorldXZRotation>true</useWorldXZRotation>
+    <alignToGround>true</alignToGround>
+    <canBePlacedOnField>true</canBePlacedOnField>
+    <canBePlacedEverywhere>true</canBePlacedEverywhere>
+    <leveling>false</leveling>
+    <navMeshBlocking>false</navMeshBlocking>
+  </placement>
+</placeable>
