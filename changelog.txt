@@ -1,3 +1,21 @@
+--------------------------------------------------------
+Changelog: FS25 J.R. Hoback Jr. Memorial Headstone
+Version: 1.1.0.0
+Release Date: 10/19/2025
+--------------------------------------------------------
+
+• Updated to FS25 v1.1 format  
+• Fixed placement visibility – now correctly appears under Build Mode → Decorations → Other  
+• Converted <tab> to <subCategory> and added <placementCategory> for FS25 compatibility  
+• Verified mod structure and texture paths  
+• Confirmed console compatibility (no scripts or errors)  
+• Improved overall file organization and XML compliance  
+• Updated changelog formatting and author credits  
+
+--------------------------------------------------------
+Author: Jessie Crider (CriderGPT)
+“Smarter Tech for Stronger Farms”
+--------------------------------------------------------
 Initial mod release
 
 Price: $300
