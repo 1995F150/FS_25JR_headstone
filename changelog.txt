@@ -1,0 +1,17 @@
+Initial mod release
+
+Price: $300
+
+Category: Decorations → Other
+
+Description: Handcrafted memorial honoring J.R. Hoback Jr. and Crider family heritage.
+
+Placement: Build Mode → Decorations → Other
+
+Fully console-compatible
+
+Added static mesh (JRheadstone.i3d)
+
+Added localization for in-game name/description
+
+Store Icon: Custom DDS (storeIcon.dds)
