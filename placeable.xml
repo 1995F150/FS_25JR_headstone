@@ -1,41 +1,41 @@
 <?xml version="1.0" encoding="utf-8"?>
 <placeable type="placeable">
 
-  <!-- Basic object setup -->
-  <base>
-    <type>static</type>
-    <filename>JRheadstone.i3d</filename>
-    <clearAreasOnSale>false</clearAreasOnSale>
-    <boughtWithFarmland>true</boughtWithFarmland>
-  </base>
+    <!-- 📦 Base object setup -->
+    <base>
+        <type>static</type>
+        <filename>JRheadstone.i3d</filename>
+        <clearAreasOnSale>false</clearAreasOnSale>
+        <boughtWithFarmland>true</boughtWithFarmland>
+    </base>
 
-  <!-- Store information -->
-  <storeData>
-    <name>$l10n_hoback_name</name>
-    <description>$l10n_hoback_desc</description>
-    <image>storeIcon.dds</image>
-    <brand>CriderGPT</brand>
-    <price>300</price>
-    <dailyUpkeep>0</dailyUpkeep>
+    <!-- 🏷️ Store / build-menu data -->
+    <storeData>
+        <name>$l10n_hoback_name</name>
+        <description>$l10n_hoback_desc</description>
+        <image>storeIcon.dds</image>
+        <brand>CriderGPT</brand>
+        <price>300</price>
+        <dailyUpkeep>0</dailyUpkeep>
 
-    <!-- FS25 build-menu assignment -->
-    <brush>
-      <type>placeable</type>
-      <category>decoration</category>
-      <subCategory>other</subCategory>
-      <placementCategory>decoration</placementCategory>
-    </brush>
-  </storeData>
+        <!-- 🧱 FS25 build-menu assignment -->
+        <brush>
+            <type>placeable</type>
+            <category>decorations</category>
+            <subCategory>other</subCategory>
+            <placementCategory>decorations</placementCategory>
+        </brush>
+    </storeData>
 
-  <!-- Placement behavior -->
-  <placement>
-    <useWorldXZRotation>true</useWorldXZRotation>
-    <alignToGround>true</alignToGround>
-    <canBePlacedOnField>true</canBePlacedOnField>
-    <canBePlacedEverywhere>true</canBePlacedEverywhere>
-    <leveling>false</leveling>
-    <navMeshBlocking>false</navMeshBlocking>
-  </placement>
+    <!-- ⚙️ Placement behavior -->
+    <placement>
+        <useRandomRotation>false</useRandomRotation>
+        <useWorldXZRotation>true</useWorldXZRotation>
+        <allowOverlap>false</allowOverlap>
+    </placement>
+
+    <!-- 🚫 Collision setup -->
+    <collisions active="true"/>
 
 </placeable>
 
