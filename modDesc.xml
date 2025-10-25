@@ -3,32 +3,39 @@
     <author>Jessie Crider (CriderGPT)</author>
     <version>1.1.0.0</version>
 
-    <title>J.R. Hoback Jr. Memorial Headstone</title>
+    <!-- Localized Title & Description -->
+    <title>
+        <en>J.R. Hoback Jr. Memorial Headstone</en>
+    </title>
+
     <description>
-        A handcrafted 3D model of the J.R. Hoback Jr. memorial headstone. 
-        Designed and modeled in honor of family heritage and local history. 
-        This decorative monument can be placed anywhere on your farm under Build Mode → Decorations → Other.
+        <en><![CDATA[
+        A handcrafted 3D model of the J.R. Hoback Jr. memorial headstone.  
+        Designed and modeled in honor of family heritage and local history.  
+        This decorative monument can be placed anywhere on your farm under  
+        Build Mode → Decorations → Other.
+        ]]></en>
     </description>
 
-    <!-- Store icon -->
+    <!-- Icon shown in the store -->
     <iconFilename>storeIcon.dds</iconFilename>
 
     <!-- Multiplayer support -->
     <multiplayer supported="true"/>
 
-    <!-- FS25 store indexing -->
-    <category>decoration</category>
+    <!-- Mod Category (FS25 build menu indexing) -->
+    <category>decorations</category>
 
-    <!-- Registers the store item -->
+    <!-- Register the placeable for in-game store -->
     <storeItems>
-        <storeItem xmlFilename="storeItem.xml"/>
+        <storeItem xmlFilename="placeable.xml"/>
     </storeItems>
 
-    <!-- Brand info -->
+    <!-- Branding -->
     <brands>
         <brand name="CriderGPT"/>
     </brands>
 
-    <!-- Localization -->
-    <l10n filenamePrefix="l10n"/>
+    <!-- Localization support -->
+    <l10n filenamePrefix="l10n/l10n"/>
 </modDesc>
