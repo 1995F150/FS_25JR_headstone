@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<placeable type="placeable">
+<placeable type="staticObject">
 
     <!-- 📦 Base object setup -->
     <base>
@@ -19,11 +19,11 @@
         <image>storeIcon.dds</image>
         <brand>CriderGPT</brand>
         <price>300</price>
-        <dailyUpkeep>0</dailyUpkeep>
+        <dailyUpkeep>45</dailyUpkeep>
 
         <!-- 🧱 FS25 build-menu assignment -->
         <brush>
-            <type>placeable</type>
+            <type>staticObject</type>
             <category>decoration</category>
             <subCategory>other</subCategory>
             <placementCategory>decoration</placementCategory>
@@ -41,3 +41,4 @@
     <collisions active="true"/>
 
 </placeable>
+
