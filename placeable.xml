@@ -4,7 +4,7 @@
     <!-- 📦 Base object setup -->
     <base>
         <type>static</type>
-        <filename>JRheadstone.i3d</filename>
+        <filename>JRHeadstone.i3d</filename>
         <clearAreasOnSale>false</clearAreasOnSale>
         <boughtWithFarmland>true</boughtWithFarmland>
     </base>
@@ -14,7 +14,7 @@
         <name>J.R. Hoback Jr. Memorial Headstone</name>
         <description>
             Handcrafted 3D memorial headstone honoring J.R. Hoback Jr., 
-            designed for placement under Decorations → Other.
+            designed for placement under Decoration → Other.
         </description>
         <image>storeIcon.dds</image>
         <brand>CriderGPT</brand>
@@ -24,9 +24,9 @@
         <!-- 🧱 FS25 build-menu assignment -->
         <brush>
             <type>placeable</type>
-            <category>decorations</category>
+            <category>decoration</category>
             <subCategory>other</subCategory>
-            <placementCategory>decorations</placementCategory>
+            <placementCategory>decoration</placementCategory>
         </brush>
     </storeData>
 
@@ -41,4 +41,3 @@
     <collisions active="true"/>
 
 </placeable>
-
