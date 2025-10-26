@@ -11,8 +11,11 @@
 
     <!-- 🏷️ Store / build-menu data -->
     <storeData>
-        <name>$l10n_hoback_name</name>
-        <description>$l10n_hoback_desc</description>
+        <name>J.R. Hoback Jr. Memorial Headstone</name>
+        <description>
+            Handcrafted 3D memorial headstone honoring J.R. Hoback Jr., 
+            designed for placement under Decorations → Other.
+        </description>
         <image>storeIcon.dds</image>
         <brand>CriderGPT</brand>
         <price>300</price>
