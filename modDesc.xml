@@ -13,7 +13,7 @@
         A handcrafted 3D model of the J.R. Hoback Jr. memorial headstone.  
         Designed and modeled in honor of family heritage and local history.  
         This decorative monument can be placed anywhere on your farm under  
-        Build Mode → Decorations → Other.
+        Build Mode → Decoration → Other.
         ]]></en>
     </description>
 
@@ -24,7 +24,7 @@
     <multiplayer supported="true"/>
 
     <!-- Mod Category (FS25 build menu indexing) -->
-    <category>decorations</category>
+    <category>decoration</category>
 
     <!-- Register the placeable for in-game store -->
     <storeItems>
