@@ -35,7 +35,4 @@
     <brands>
         <brand name="CriderGPT"/>
     </brands>
-
-    <!-- Localization support -->
-    <l10n filenamePrefix="l10n/l10n"/>
 </modDesc>
